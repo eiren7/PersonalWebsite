@@ -39,7 +39,7 @@ nav {
   background-color: rgba(239, 239, 240, 0.6);
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 16vh;
 }
 
 .nav-links {
@@ -186,6 +186,7 @@ section {
 
 .section__text {
   padding: 2rem;
+  align-self: left;
   text-align: center;
 }
 
@@ -495,18 +496,17 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  background-color: rgba(239, 239, 240, 0.6);
-  height: 26vh;
-  margin: 0 1rem;
+  height: 20vh;
 }
 
 footer p {
+  background-color: rgba(239, 239, 240, 0.6);
+  padding-bottom: 2rem;
   text-align: center;
 }
 
 .to-top {
   position: fixed;
-  bottom: 30px;
   right: 80px;
   padding: 10px 15px;
 }
