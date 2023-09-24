@@ -1,6 +1,6 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@300;400;500;600&family=Sawarabi+Mincho&display=swap");
 
 * {
   margin: 0;
@@ -62,7 +62,16 @@ a:hover {
 }
 
 .logo {
+  font-family: "Sawarabi Mincho", serif;
   font-size: 2rem;
+  letter-spacing: 2rem;
+}
+
+.logo-mobile {
+  font-family: "Libre Baskerville", serif;
+  font-size: 2rem;
+  letter-spacing: 0.125rem;
+  word-spacing: 0.125rem;
 }
 
 .logo:hover {
@@ -173,15 +182,8 @@ section {
   align-items: center;
   gap: 2rem;
   height: 80vh;
-  min-width: 400px;
-}
-
-.section__container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-  max-width: 900px;
+  min-width: 300px;
+  max-width: 100%;
 }
 
 .section__text {
