@@ -215,6 +215,8 @@ section {
   max-width: 900px;
   height: fit-content;
   overflow-y: auto;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 #socials-container {
