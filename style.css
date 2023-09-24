@@ -213,6 +213,7 @@ section {
 .introduction {
   padding: 2rem;
   text-align: justify;
+  font-size: 1.125rem;
   width: 100%;
   max-width: 900px;
   height: fit-content;
