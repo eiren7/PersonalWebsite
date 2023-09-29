@@ -8,3 +8,7 @@ function toggleMenu() {
 function scrollToTop() {
   window.scrollTo(0, 0)
 }
+
+function openNewWindow(url) {
+  window.open(url, '_blank');
+}

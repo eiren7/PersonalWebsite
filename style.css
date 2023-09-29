@@ -62,9 +62,10 @@ a:hover {
 }
 
 .logo {
-  font-family: "Sawarabi Mincho", serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 2rem;
-  letter-spacing: 2rem;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.5rem;
 }
 
 .logo-mobile {
@@ -214,6 +215,7 @@ section {
   padding: 2rem;
   text-align: justify;
   font-size: 1.125rem;
+  font-weight: 300;
   width: 100%;
   max-width: 900px;
   height: fit-content;
@@ -399,63 +401,10 @@ article .icon {
   color: black;
 }
 
+
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
-}
-
-/* GALLERY SECTION */
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.container {
-  width: 20%;
-  position: relative;
-  transition: transform 500ms;
-  display: block;
-  border-radius: 2rem;
-  overflow: hidden;
-}
-
-.container-img {
-  width: 90%;
-  padding: 2rem;
-  opacity: 1;
-  height: auto;
-  display: block;
-}
-
-.row .container:focus,
-.row .container:hover {
-  transform: scale(1.5);
-  z-index: 1;
-}
-
-.middle {
-  background-color: rgba(228, 233, 237, 0.4);
-  transition: 0.5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 50%;
-  height: 50%;
-  transform: translate(-50%, -50%);
-  text-align: start;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
 }
 
 /* CONTACT */
@@ -508,14 +457,4 @@ footer p {
   background-color: rgba(239, 239, 240, 0.6);
   padding-bottom: 2rem;
   text-align: center;
-}
-
-.to-top {
-  position: fixed;
-  right: 80px;
-  padding: 10px 15px;
-}
-
-.to-top:hover {
-  cursor: pointer;
 }
