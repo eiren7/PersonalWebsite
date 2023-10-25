@@ -95,6 +95,8 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-size: 0.9rem;
+    font-weight: 300;
+    text-align: justify;
     max-width: 95%;
   }
   .section__text__p2 {

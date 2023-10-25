@@ -185,6 +185,7 @@ section {
   height: 80vh;
   min-width: 300px;
   max-width: 100%;
+  height: fit-content;
 }
 
 .section__text {
@@ -383,6 +384,7 @@ article .icon {
 
 #projects {
   position: relative;
+  height: fit-content;
 }
 
 .color-container {
@@ -401,7 +403,6 @@ article .icon {
   color: black;
 }
 
-
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
@@ -410,6 +411,8 @@ article .icon {
 /* CONTACT */
 
 #contact {
+  position: relative;
+  position: initial;
   display: flex;
   justify-content: center;
   flex-direction: column;
